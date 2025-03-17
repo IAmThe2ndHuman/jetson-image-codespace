@@ -1,0 +1,9 @@
+{
+  "name": "Ubuntu 22.04 Codespace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [],
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential"
+}
